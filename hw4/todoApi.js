@@ -120,8 +120,12 @@ class ApiController {
   }
 }
 
+//Тут выбрать нужную реализацию
+
 // const engine = new FetchEngine();
 const engine = new XhrEngine();
+
+
 // Список тасок
 const btn1 = document.querySelector("#btn1");
 const tasksList = document.querySelector("#tasksList");
